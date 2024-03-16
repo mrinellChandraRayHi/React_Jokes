@@ -1,12 +1,12 @@
-import './App.css'
+import './App.css';
+import Jokes from './Components/Jokes/Jokes';
 
 function App() {
-
   return (
     <>
-      hello
+      <Jokes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
